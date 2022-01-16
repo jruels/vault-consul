@@ -1,4 +1,4 @@
-# Security with Vault and Consul Classpage
+# Security with Vault and Consul 
 
 This site includes the slides and labs for the Security with Vault and Consul training.
 
