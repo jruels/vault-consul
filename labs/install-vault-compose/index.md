@@ -159,7 +159,7 @@ docker-compose exec vault bash
 
 Within the shell, initialize Vault 
 ```bash
-bash-5.1# vault operator init -key-shares=1
+bash-5.1# vault operator init
 ```
 
 Note the unseal key and root token. These are required to unseal Vault every time the server is restarted. We will also be using the token for access to the Vault. 
