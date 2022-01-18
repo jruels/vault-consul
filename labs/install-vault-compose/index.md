@@ -72,7 +72,7 @@ EXPOSE 8200
 ENTRYPOINT ["vault"]
 ```
 
-In the `vault-consul-docker` directory create `docker-compose.yml with the following:
+In the `vault-consul-docker` directory create `docker-compose.yml` with the following:
 
 ```yml
 version: '3.3'
@@ -98,7 +98,7 @@ services:
       - IPC_LOCK
 ```
 
-Add a config file called `vault-config.json` to the "vault/config" directory:
+Add a config file called `vault-config.json` to the `vault/config` directory:
 
 ```json
 {
