@@ -20,15 +20,19 @@ To get up and running quickly, we'll use the Filesystem backend to store secrets
 
 > The filesystem backend should only be used for local development or a single-server Vault deployment since it does not support high availability.
 
+```bash
 mkdir vault-consul-docker && cd vault-consul-docker
+```
 
 Create the following folder structure:
 
+```
 └── vault
     ├── config
     ├── data
     ├── logs
     └── policies
+```
 
 Add a `Dockerfile` to the "vault" directory:
 
