@@ -3,7 +3,7 @@
 # Overview
 The following tutorial details how to set up and use Vault to securely store and manage secrets.
 
-We'll start by spinning up a single instance of Vault using Docker Compose and then jump into managing secrets, and introducing Vault's "encryption as a service" feature. 
+We'll start by spinning up a single instance of Vault using Docker Compose. After we have started Vault, we will initialize, unseal and authenticate. Finally we will enable an Audit backend. 
 
 ## Objectives 
 By the end of this tutorial, you should be able to:
