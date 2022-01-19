@@ -9,7 +9,7 @@ This lab is more advanced and does not provide step-by-step instructions. Use th
 * Enable `kv` Secrets Engine at: 
   * `secrets-kv-A`
   * `secrets-kv-B`
-* Create a Policy for `secrets-kb-A`, and `secrets-kv-B` with `CREATE`, `READ`, and `UPDATE` capabilites
+* Create a Policy for `secrets-kv-A`, and `secrets-kv-B` with `CREATE`, `READ`, and `UPDATE` capabilites
   * Create a policy file
   * Populate a policy file
   * Write a policy 
@@ -23,6 +23,6 @@ This lab is more advanced and does not provide step-by-step instructions. Use th
 * BONUS:
   * Create an additional policy with only `READ` access to `secrets-kv-B`
     * Create a token and assign the read-only policy 
-    * Confirm you can only read secrets from `secrets-kb-B`
+    * Confirm you can only read secrets from `secrets-kv-B`
 
 ## Congrats
