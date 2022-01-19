@@ -19,7 +19,7 @@ Enter your root token and hit “Sign In.” You’ll be greeted with the follow
 
 [](images/vault-secret-backend.png)
 
-Click `Enable new engine` and then select the `KV backend` and name it `secret`
+Click `Enable new engine` and then select the `KV backend` and set the path to `secret`
 
 We’ll use this backend to store our secrets and then later retrieve them in the Node.js demo.
 
